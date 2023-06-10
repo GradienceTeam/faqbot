@@ -1,0 +1,6 @@
+cd /home/0xmrtt/faqbot
+
+export MATRIX_PASSWORD="secret password"
+
+python faqbot/__init__.py
+
