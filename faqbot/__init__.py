@@ -6,12 +6,12 @@ import sys
 
 PREFIX = "!"
 
-USERNAME = os.environ.get("MATRIX_USERNAME", "oxmrtt")
-SERVER = os.environ.get("MATRIX_SERVER", "https://mtrx.vern.cc")
+USERNAME = os.environ.get("MATRIX_USERNAME", "gradiencefaq")
+SERVER = os.environ.get("MATRIX_SERVER", "https://matrix.projectsegfau.lt")
 PASSWORD = os.environ.get("MATRIX_PASSWORD", None)
 ALIASES = os.environ.get("ALIASES", "faq, f").split(", ")
 FAQ_CONFIG = os.environ.get("FAQ_CONFIG", "faq.json")
-SYSTEMD_SERVICE_NAME = os.environ.get("SYSTEMD_SERVICE_NAME", "faqbot")
+SYSTEMD_SERVICE_NAME = os.environ.get("SYSTEMD_SERVICE_NAME", "gradiencefaqbot")
 
 HELP = f"""
 Help Message:
